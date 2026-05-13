@@ -9,6 +9,9 @@ public class Testdemo {
 	@Test
 	public void launchurl() {
 		WebDriver driver = new EdgeDriver();
+		driver.get("https://testingbaba.com/old/");
+		driver.manage().window().maximize();
+		driver.close();
 	}
 
 }
